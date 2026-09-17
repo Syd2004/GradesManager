@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+students.json
+tests.py
