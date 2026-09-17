@@ -33,7 +33,7 @@ def load_students():
     save_students()
     print("File created.")
 
-# checks if the mark is categorized as a 'Pass' (50+) or 'Fail' (>50)
+# Checks if the mark is categorized as a 'Pass' (50+) or 'Fail' (<50)
 def check_pass(n):
   return "Pass" if n >= 50 else "Fail"
 
